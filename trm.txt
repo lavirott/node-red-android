@@ -1,0 +1,6 @@
+termux :
+no multi user supprt
+no package downgrade support
+could not load symbolic links on compile time
+
+to resolve the conflict we have to back up symlinks on txt file within the boot zip

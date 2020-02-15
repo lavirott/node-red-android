@@ -1,0 +1,5 @@
+https://nodejs.org/dist/v13.0.0/node-v13.0.0.tar.xz
+45ff3b40afc3fc93fd62e31c0f5dfa046f307f0b33d0f32e09019f306bc74767
+
+https://nodejs.org/dist/v8.16.2/node-v8.16.2.tar.xz
+8c16b500ad74c1b1bde099996c287eeed5a4b2ab0efdf5d94d1d683cc2654ec3

@@ -1,0 +1,12 @@
+objectif :
+developper une app android qui fait ce ci:
+apres instalaltion de l'applicaion l'utilisateur la lance pour executer automatiquement ces opérations :
+install termux
+install termux api
+run a shell script to install nodejs + install node-red avec npm
+se connecter au point d'acces (bssid & password dans le script shell)
+installer et configurer ssh (pour avoir acces a partir d'un equipement distant)
+demarrer node-red (accessible @ localhost:1880 et au autres devices distants)
+donc il sera possible de deployer les flow node-red a distance dans le device en question a travers ssh
+
+
