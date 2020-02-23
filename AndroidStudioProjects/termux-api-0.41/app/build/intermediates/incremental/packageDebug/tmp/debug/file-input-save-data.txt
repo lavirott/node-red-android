@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Feb 22 16:12:34 CET 2020
+1.base=C\:\\Users\\Balsam\\AndroidStudioProjects\\termux-api-0.41\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\Balsam\\AndroidStudioProjects\\termux-api-0.41\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+1.path=classes.dex
