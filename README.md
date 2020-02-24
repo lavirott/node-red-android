@@ -80,6 +80,6 @@ Rihab ZAAFOURI
 7- now all work is done, build the app and generate APK, the upload to target device and start it.
 
 => the app will start and execute the shell script to configure and install needed packages.
-   the it exits on it's own, so you have to relaunch it to start node-red automatically and deploy the flow.
+   the app exits on it's own, so you have to relaunch it to start node-red automatically and deploy the flow.
    
 
