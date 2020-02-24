@@ -1,5 +1,0 @@
-StrictModes no
-PrintMotd no
-PasswordAuthentication yes
-PubkeyAcceptedKeyTypes +ssh-dss
-Subsystem sftp /data/data/com.termux/files/usr/libexec/sftp-server
