@@ -52,18 +52,31 @@ Rihab ZAAFOURI
 
 
 # How to build the project from src :
+
 1- there is no need to clone the whole git repo, you only need to get the android studio src and the file sytem images.
+
 2- thera are two android studio projects : termux API and termux APP, you only need the APP project for now.
+
 3- open the andrdoid studio project termux APP.
+
 4- under termux-app/app/scr/main/cpp/filesystem_patch you will find three files "bash.bashrc", "motd" and "flows_localhost.json".
-    4.1- "bash.bashrc" is the shell script that launches every time the App starts.
-    4.2- "motd" is the welcome text file displayed every time the App starts.
-    4.3- "flows_localhost.json" is the auto startup node-red flow.
+
+4.1- "bash.bashrc" is the shell script that launches every time the App starts.
+
+4.2- "motd" is the welcome text file displayed every time the App starts.
+
+4.3- "flows_localhost.json" is the auto startup node-red flow.
+
 5- then you have to add these files to the filesystem images according to desired target architecture.
-    5.1- "bash.bashrc" under /etc/
-    5.2- "motd" under /etc/
-    5.3- "flows_localhost.json" under /tmp/
+
+5.1- "bash.bashrc" under /etc/
+
+5.2- "motd" under /etc/
+
+5.3- "flows_localhost.json" under /tmp/
+
 6- now you need the other android project "termux API" : you could build or just use the already build APK flile, there is no need to edit this project.
+
 7- now all work is done, build the app and generate APK, the upload to target device and start it.
 
 => the app will start and execute the shell script to configure and install needed packages.
