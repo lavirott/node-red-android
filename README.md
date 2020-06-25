@@ -1,4 +1,4 @@
-# pfe-2019-pfe2019-035-groupe-1
+# Node-RED sur Android
 pfe-2019-pfe2019-035-groupe-1 created by GitHub Classroom
 
 
@@ -26,7 +26,7 @@ Encadrant: Stéphane Lavirotte, Université Côte d’Azur, CNRS, I3S, UMR 7271
 
 Coordonées:
 
-Stephane.Lavirotte@univ-cotedazur.fr, 06 79 67 28 27
+Stephane.Lavirotte@univ-cotedazur.fr
 
 
 Co-encadrant:
