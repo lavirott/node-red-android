@@ -33,31 +33,19 @@ Co-encadrant:
 
 # How to build the project from src :
 
- 1 There is no need to clone the whole git repo, you only need to get the android studio src and the file sytem images.
- 
- 2 There are two android studio projects : termux API and termux APP, you only need the APP project for now.
- 
- 3 Open the andrdoid studio project termux APP.
-
- 4 Under termux-app/app/scr/main/cpp/filesystem_patch you will find three files "bash.bashrc", "motd" and "flows_localhost.json".
-
- 4.1 "bash.bashrc" is the shell script that launches every time the App starts.
-
- 4.2 "motd" is the welcome text file displayed every time the App starts.
-
- 4.3 "flows_localhost.json" is the auto startup node-red flow.
-
- 5 Then, you have to add these files to the filesystem images according to desired target architecture.
-
- 5.1 "bash.bashrc" under /etc/
-
- 5.2 "motd" under /etc/
-
- 5.3 "flows_localhost.json" under /tmp/
-
- 6  Then, you need the other android project "termux API" : you could build or just use the already build APK flile, there is no need to edit this project.
-
- 7 Now all work is done, build the app and generate APK, the upload to target device and start it.
+ 1. There is no need to clone the whole git repo, you only need to get the android studio src and the file sytem images.
+ 2. There are two android studio projects : termux API and termux APP, you only need the APP project for now.
+ 3. Open the andrdoid studio project termux APP.
+ 4. Under termux-app/app/scr/main/cpp/filesystem_patch you will find three files "bash.bashrc", "motd" and "flows_localhost.json".
+ 4.1. "bash.bashrc" is the shell script that launches every time the App starts.
+ 4.2. "motd" is the welcome text file displayed every time the App starts.
+ 4.3. "flows_localhost.json" is the auto startup node-red flow.
+ 5. Then, you have to add these files to the filesystem images according to desired target architecture.
+ 5.1. "bash.bashrc" under /etc/
+ 5.2. "motd" under /etc/
+ 5.3. "flows_localhost.json" under /tmp/
+ 6. Then, you need the other android project "termux API" : you could build or just use the already build APK flile, there is no need to edit this project.
+ 7. Now all work is done, build the app and generate APK, the upload to target device and start it.
 
 => The app will start and execute the Shell script to configure and install needed packages. The app exits on it's own, so you have to relaunch it to start node-red automatically and deploy the flow.
    
